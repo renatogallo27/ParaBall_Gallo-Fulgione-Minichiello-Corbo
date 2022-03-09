@@ -25,7 +25,7 @@ Abbiamo ereditato le classi retta e parabola, ma il gioco che proporremo sarà d
 
 È un gioco arcade 2D. Gli sprite presenti nel gioco sono una pallina da tennis ed un cestino della spazzatura. 
 Il gioco è diviso in livelli e in ognuno di questi il cestino della spazzatura viene generato in una posizione casuale.
-L'obiettivo del giocatore è mandare la pallina all'interno del cestino; per farlo egli deve inserire dei valori di a,b e c di una parabola, i cui punti andranno a rappresentare la traiettoria del moto compiuto dalla pallina. Completato l'obiettivo con successo, si passerà al livello successivo. 
+L'obiettivo del giocatore è mandare la pallina all'interno del cestino e per farlo deve inserire dei valori a,b e c di una parabola, i cui punti andranno a rappresentare la traiettoria del moto compiuto dalla pallina. Completato l'obiettivo con successo si passerà al livello successivo. 
 Il giocatore all'inizio del gioco ha a disposizione 3 vite, che possono aumentare durante il corso della partita. 
 I primi due livelli del gioco sono di prova e servono per far ambientare il giocatore sul variare dei parametri che deve inserire.  
 In caso il giocatore non dovesse completare l'obiettivo perderà una vita e passerà al livello successivo. Terminate le vite terminerà anche il gioco.   
