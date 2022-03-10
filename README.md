@@ -17,7 +17,7 @@ Abbiamo ereditato le classi retta e parabola, ma il gioco che proporremo sarà d
 
 ***
 
-# Tennis ball
+# ParaBall
 
 ## **Descrizione del gioco**
 
