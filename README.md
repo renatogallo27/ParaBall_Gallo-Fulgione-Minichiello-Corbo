@@ -32,7 +32,10 @@ In caso il giocatore non dovesse completare l'obiettivo perderà una vita e pass
 
 ### *Interfaccia*
 
-
+Il gioco Paraball ha uno sfondo di colore celeste, in basso a sinistra dello schermo c’è una pallina di tennis, che verrà lanciata, alla destra 
+dello schermo c’è un cestino, che sarà il canestro dove andrà a finire la pallina. In alto a sinistra ci sono le vite segnate con dei cuori. 
+Quando si completa con successo un livello esce in sovrimpressione la scritta “WIN” e il tasto "Next level", che serve per passare al livello 
+successivo, invece, quando si finiscono le vite, si perde e uscirà la scritta “GAME OVER” e il tasto "Restart game", che serve per riavviare il gioco.
 
 ### *Requisiti*
 
@@ -51,67 +54,67 @@ Bisogna avere installati sul proprio computer i moduli python: pygame, pgzero, r
 
 ## *Preconcetti matematici*
 
-### *Tutti i metodi della classe retta:*
+### *Tutti i metodi della classe retta*
 
-#### *eqImplicita:*
+#### *eqImplicita*
 
 	in base ai valori dei parametri (a, b, c) ricava l’equazione implicita del tipo 
 	ax + by + c = 0.
 
-#### *eqEsplicita:*
+#### *eqEsplicita*
 
 	in base al valore dei parametri (a, b, c) ricava l’equazione esplicita del tipo 
 	y = (-a/b)x + (-c/b) dove (-a/b) è il coefficiente angolare e (-c/b) è l’intercetta.
 
-#### *trovaY:*
+#### *trovaY*
 
 	presi i valori di a, b, c e x trova il valore di y. Questo metodo è implementato nel
 	metodo “punti”.
 
-#### *punti:*
+#### *punti*
 
     l’utente inserisce un range di valori di x e il metodo trova i corrispondenti valori di y
     attraverso il metodo “trovaY”. Successivamente inserisce le coordinate dei punti
     trovati in quel range di x all’interno di una lista di tuple
 
-#### *m (coefficiente angolare):*
+#### *m (coefficiente angolare)*
 
 	dati i valori dei parametri (a, b) ricava il valore del coefficiente angolare (m) tramite 	la formula m = -a/b.
 
-#### *intersezione:*
+#### *intersezione*
 
     se coefficiente angolare (m) e intercetta (q) delle due equazioni sono uguali allora le rette sono coincidenti (hanno tutti i punti in comune).
     Se il coefficiente angolare è uguale mentre l’intercetta è diversa allora non ci sono punti di intersezione in quanto le rette sono parallele.
     Se il coefficiente angolare è diverso metti a sistema le due equazioni ricavando il
     punto d’intersezione tra le due rette.
 
-### *Tutti i metodi della classe parabola:*
+### *Tutti i metodi della classe parabola*
 
-#### *fuoco:*
+#### *fuoco*
 
     Se l’asse di simmetria della parabola è parallelo all’asse delle ordinate allora le
     coordinate del fuoco saranno (-b/2a ; 1-Δ/4a);
     Se l’asse di simmetria della parabola è parallelo all’asse delle ascisse allora le
     coordinate del fuoco saranno (1-Δ/4a ; -b/2a).
 
-#### *direttrice:*
+#### *direttrice*
 
 	Se l’asse di simmetria della parabola è parallelo all’asse delle ordinate allora l’
     equazione della direttrice sarà y = -1-Δ/4a;
     Se l’asse di simmetria della parabola è parallelo all’asse delle ascisse allora l’
     equazione della direttrice sarà x = -1-Δ/4a.
 
-#### *trovaY:*
+#### *trovaY*
 
 	presi i valori di a, b, c e x trova il valore/valori (a seconda dell’asse di simmetria) di y.
     Questo metodo è implementato nel metodo “punti”.
 
-#### *trovaX:*
+#### *trovaX*
 
 	presi i valori di a, b, c e y trova il valore/valori (a seconda dell’asse di simmetria) di x.
     Questo metodo è implementato nel metodo “punti”.
 
-#### *punti:*
+#### *punti*
 
 	Se l’asse della parabola è parallelo all’asse delle ordinate:
     l’utente inserisce un range di valori di x e il metodo trova il corrispondente 
