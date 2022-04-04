@@ -33,9 +33,10 @@ In caso il giocatore non dovesse completare l'obiettivo perderà una vita e pass
 ### *Interfaccia*
 
 Il gioco Paraball ha uno sfondo di colore celeste. In basso a sinistra dello schermo c’è una pallina di tennis e alla destra dello 
-schermo c’è un cestino, che sarà il canestro dove andrà a finire la pallina. In alto a sinistra c'è il counter delle vite. 
-Quando si completa con successo un livello esce in sovrimpressione la scritta “WIN” e il tasto "Next level", che serve per passare al livello 
-successivo, invece, quando si finiscono le vite, si perde e uscirà la scritta “GAME OVER” e il tasto "Restart game", che serve per riavviare il gioco.
+schermo c’è un cestino, che sarà il canestro dove andrà a finire la pallina. In alto a sinistra c'è il counter delle vite e in alto al centro 
+ci sono i box per inserire i valori a, b, c della parabola e il tasto "Throw". Quando si completa con successo un livello esce in sovrimpressione la scritta “WIN” 
+e il tasto "Next level", che serve per passare al livello successivo, invece, quando si finiscono le vite, si perde e uscirà la scritta “GAME OVER”
+e il tasto "Restart game", che serve per riavviare il gioco.
 
 ### *Requisiti*
 
