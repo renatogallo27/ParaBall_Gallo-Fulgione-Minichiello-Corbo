@@ -123,3 +123,6 @@ Bisogna avere installati sul proprio computer i moduli python: pygame, pgzero, r
 	Se l’asse della parabola è parallelo all’asse delle ascisse:
     l’utente inserisce un range di valori di y e il metodo trova il corrispondente 
     valore di x per ogni y attraverso il metodo “trovaX”. Successivamente inserisce le coordinate dei punti trovati in quel range di y all’interno di una lista di tuple.
+
+![Diagramma](https://github.com/renatogallo27/ParaBall_Gallo-Fulgione-Minichiello-Corbo/blob/main/diagrammaParaball.png)
+
