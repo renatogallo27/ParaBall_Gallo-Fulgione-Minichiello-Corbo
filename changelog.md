@@ -10,3 +10,9 @@ Tutte le modifiche apportate al file verrano segnate qui.
 - Classi retta e parabola
 - Changelog
 - Inizializzazione del file README
+
+## [0.1.1] - 04-04-2022
+
+### Added
+
+- Diagramma di flusso 1.0
